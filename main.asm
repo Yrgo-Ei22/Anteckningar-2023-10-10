@@ -9,10 +9,11 @@
 ;*              All data måste lagras i ett CPU-register vid användning.    
 ;*
 ;*           Assemblerdirektiv:
-;*              .ORG (origin): Används för att specificera en adress.
-;*              .EQU (equal): Används för att definiera makron.
+;*              .CSEG (Code Segment): Programminnet, här lagras programkoden.
+;*              .ORG (origin)       : Används för att specificera en adress.
+;*              .EQU (equal)        : Används för att definiera makron.
 ;*
-;*           Instruktioner:
+;*           Assemblerinstruktioner:
 ;*              RJMP (Relative Jump)      : Hoppar till angiven adress.
 ;*              CALL (Call Subroutine)    : Anropar subrutin (tänk funktionsanrop).
 ;*              RET (Return)              : Genomför återhopp från subrutin.
